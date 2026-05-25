@@ -2,7 +2,7 @@
 
 An implementation of Gaussian Process regression in MATLAB, covering covariance function design, hyperparameter optimisation, kernel composition, and Bayesian model comparison.
 
-Coursework 1 of 3 for Carl Edward Rasmussen's [4F13 course](https://mlg.eng.cam.ac.uk/teaching/4f13/2425/) at the University of Cambridge. Awarded First Class.
+Coursework 1 of 3 of Carl Edward Rasmussen's [4F13 course](https://mlg.eng.cam.ac.uk/teaching/4f13/2425/) at the University of Cambridge (Part IIB Engineering Tripos). Awarded First Class.
 
 ---
 
