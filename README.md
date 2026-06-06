@@ -16,14 +16,14 @@ Gaussian Processes offer a principled, fully Bayesian approach to regression —
 
 | File | Description |
 |---|---|
-| `Task1.m` | GP regression with SE isotropic covariance; hyperparameter optimisation via marginal likelihood |
-| `Task2.m` | Systematic grid search over hyperparameter initialisations to study sensitivity and local optima |
-| `Task3.m` | GP regression with a periodic covariance function |
-| `Task3_hyp_finder.m` | Extended 4-dimensional grid search for periodic hyperparameters; exports ranked results to CSV |
-| `Task4.m` | Sampling from a GP prior using a product kernel (`covPeriodic × covSEiso`) via Cholesky decomposition |
-| `Task5.m` | Model comparison on 2D data: `covSEard` vs. sum of two ARD kernels, with residual analysis |
-| `cw1a.mat` | 1D dataset (Tasks 1–3) |
-| `cw1e.mat` | 2D dataset (Tasks 4–5) |
+| `code/Task1.m` | GP regression with SE isotropic covariance; hyperparameter optimisation via marginal likelihood |
+| `code/Task2.m` | Systematic grid search over hyperparameter initialisations to study sensitivity and local optima |
+| `code/Task3.m` | GP regression with a periodic covariance function |
+| `code/Task3_hyp_finder.m` | Extended 4-dimensional grid search for periodic hyperparameters; exports ranked results to CSV |
+| `code/Task4.m` | Sampling from a GP prior using a product kernel (`covPeriodic × covSEiso`) via Cholesky decomposition |
+| `code/Task5.m` | Model comparison on 2D data: `covSEard` vs. sum of two ARD kernels, with residual analysis |
+| `code/cw1a.mat` | 1D dataset (Tasks 1–3) |
+| `code/cw1e.mat` | 2D dataset (Tasks 4–5) |
 | `coursework1_questions.pdf` | Original problem sheet |
 | `coursework1_submission.pdf` | Written report |
 
@@ -50,5 +50,6 @@ Two models are compared on 2D data using the log marginal likelihood as a princi
 ## Running
 
 ```matlab
+cd code
 run('Task1.m')
 ```
